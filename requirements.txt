@@ -1,0 +1,15 @@
+# MsgGuard 运行依赖
+# 安装：pip install -r requirements.txt
+
+# 1) QQ 官方机器人 SDK（不是第三方协议库）
+qq-botpy>=2.0.0
+
+# 2) 阿里云内容审核 SDK（按需求指定版本）
+aliyun-python-sdk-core-v3==2.13.10
+aliyun-python-sdk-green==3.6.6
+
+# 3) Extension.Uploader 依赖的 OSS 客户端
+oss2
+
+# 4) 异步 HTTP（botpy 依赖，同时用于 OpenAPI 兜底调用）
+aiohttp
